@@ -1148,7 +1148,7 @@
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translate(-50%);
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 700
 }
 
@@ -1980,11 +1980,11 @@
 .dialog__container-footer button[data-v-d6ad76e9] {
     width: 3.12rem;
     height: 1.06667rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .42667rem;
     text-align: center;
     border-radius: 9rem;
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     background: transparent
 }
 
@@ -2142,7 +2142,7 @@
 }
 
 .languages-text[data-v-9bebd08e] {
-    color: #d9ac4f;
+    color: #E67301
     text-align: center;
     font-size: .32rem;
     font-weight: 500;
@@ -2292,7 +2292,7 @@
 .Laundry-Con .Laundry-Con_tip[data-v-9bebd08e] {
     font-size: .48rem;
     font-weight: 700;
-    color: #d9ac4f;
+    color: #E67301
     text-align: center
 }
 
@@ -5417,7 +5417,7 @@
 .Wallet__C-balance[data-v-5b319853] {
     min-height: 3.73333rem;
     background: -webkit-linear-gradient(296.76deg,#c4933f 5.33%,#fae59f 93.42%);
-    background: linear-gradient(153.24deg,#c4933f 5.33%,#fae59f 93.42%);
+    background: linear-gradient(90deg,#FF9901 0%,#E67301 100%);
     border-radius: .53333rem;
     padding: .46667rem .54667rem .4rem
 }
@@ -5692,7 +5692,7 @@
     padding: 0 .66667rem;
     font-size: .29333rem;
     text-align: center;
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     border-radius: .8rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -5703,7 +5703,7 @@
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
-    color: #d9ac4f;
+    color: #E67301
     margin-left: .4rem
 }
 
@@ -5939,7 +5939,7 @@
 .FDTL__C-time>div[data-v-3f9a78f2] {
     background: #292929;
     border-radius: .05333rem;
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 700;
     font-size: .48rem;
     text-align: center;
@@ -6064,7 +6064,7 @@
 }
 
 .FDB__C-nav>div.active[data-v-8d2c1c7a] {
-    background-color: #d9ac4f;
+    background-color: #E67301
     color: #8f5206
 }
 
@@ -6175,8 +6175,8 @@
 }
 
 .FDB__C-Num>div.active .round[data-v-8d2c1c7a] {
-    background: #D9AC4F;
-    border: .01333rem solid #D9AC4F;
+    background: #E67301
+    border: .01333rem solid #E67301
     color: #8f5206
 }
 
@@ -6378,7 +6378,7 @@
     -webkit-box-flex: 2;
     -webkit-flex: 2;
     flex: 2;
-    background: #D9AC4F;
+    background: #E67301
     color: #8f5206
 }
 
@@ -6765,7 +6765,7 @@
     font-size: .29333rem;
     text-align: center;
     line-height: .4rem;
-    background: #D9AC4F;
+    background: #E67301
     padding: .05333rem
 }
 
@@ -6790,7 +6790,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -7058,7 +7058,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -7111,7 +7111,7 @@
 }
 
 .Trend__C-nav>div.active[data-v-bc93e4ae] {
-    background-color: #d9ac4f;
+    background-color: #E67301
     color: #8f5206
 }
 
@@ -7577,12 +7577,12 @@
 }
 
 .MyGameRecord__C-head-moreB[data-v-71dd9c4e] {
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     height: .8rem;
     line-height: .8rem;
     border-radius: .26667rem;
     padding: 0 .72rem 0 .24rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     position: relative
 }
@@ -7637,7 +7637,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -7729,7 +7729,7 @@
     height: .93333rem;
     width: .93333rem;
     line-height: .93333rem;
-    background: #D9AC4F;
+    background: #E67301
     font-size: .34667rem;
     color: #8f5206;
     border-radius: 50%;
@@ -8221,7 +8221,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -8263,7 +8263,7 @@
 }
 
 .BettingRecord5D__C[data-v-e54b821b] .van-tab--active {
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 500
 }
 
@@ -8791,7 +8791,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -8821,7 +8821,7 @@
 }
 
 .BettingRecordK3__C[data-v-0d6ca188] .van-tab--active {
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 500
 }
 
@@ -9309,7 +9309,7 @@
 }
 
 .BettingRecordWin__C[data-v-634f7879] .van-tab--active {
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 500
 }
 
@@ -9397,7 +9397,7 @@
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -9439,7 +9439,7 @@
 }
 
 .BettingRecordWinTrx__C[data-v-54c80bcf] .van-tab--active {
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 500
 }
 
@@ -12302,7 +12302,7 @@ table[data-v-c375424d] {
 }
 
 .Betting__Popup .bgcolor[data-v-e6d02863] {
-    background-color: #d9ac4f;
+    background-color: #E67301
     color: #8f5206;
     border-radius: .10667rem
 }
@@ -12825,12 +12825,12 @@ table[data-v-c375424d] {
 }
 
 .MyGameRecord__C-head-moreB[data-v-27897c55] {
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     height: .8rem;
     line-height: .8rem;
     border-radius: .26667rem;
     padding: 0 .72rem 0 .24rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     position: relative
 }
@@ -12881,7 +12881,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #d9ac4f;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -12947,12 +12947,12 @@ table[data-v-c375424d] {
 }
 
 .MyGameRecord__C-head-moreB[data-v-f398e520] {
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     height: .8rem;
     line-height: .8rem;
     border-radius: .26667rem;
     padding: 0 .72rem 0 .24rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     position: relative
 }
@@ -13118,7 +13118,7 @@ table[data-v-c375424d] {
 }
 
 .changLong__C-tab[data-v-07c65734] .van-tab--active {
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 500
 }
 
@@ -13167,7 +13167,7 @@ table[data-v-c375424d] {
     padding: 0 .66667rem;
     font-size: .29333rem;
     text-align: center;
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     border-radius: .8rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -13178,7 +13178,7 @@ table[data-v-c375424d] {
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
-    color: #d9ac4f;
+    color: #E67301
     margin-left: .4rem
 }
 
@@ -13388,7 +13388,7 @@ table[data-v-c375424d] {
 .K3TL__C-time>div[data-v-a5c2a933] {
     background: #292929;
     border-radius: .05333rem;
-    color: #d9ac4f;
+    color: #E67301
     font-weight: 700;
     font-size: .48rem;
     text-align: center;
@@ -14204,7 +14204,7 @@ table[data-v-c375424d] {
     -webkit-box-flex: 2;
     -webkit-flex: 2;
     flex: 2;
-    background: #D9AC4F;
+    background: #E67301
     color: #8f5206
 }
 
@@ -14324,7 +14324,7 @@ table[data-v-c375424d] {
 .bgcolor[data-v-d519a2ac] {
     pointer-events: all;
     color: #8f5206;
-    background: #D9AC4F;
+    background: #E67301
     border: none!important
 }
 
@@ -14418,7 +14418,7 @@ table[data-v-c375424d] {
 }
 
 .K3B__C-nav>div.active[data-v-4b0cace2] {
-    background: #D9AC4F;
+    background: #E67301
     color: #赌注
 }
 
@@ -14629,7 +14629,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -14795,7 +14795,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #D9AC4F;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -28737,7 +28737,7 @@ table[data-v-c375424d] {
 }
 
 .bgcolor[data-v-dc81bf96] {
-    background-color: #d9ac4f;
+    background-color: #E67301
     color: #8f5206;
     pointer-events: all
 }
@@ -28937,7 +28937,7 @@ table[data-v-c375424d] {
     height: .90667rem;
     line-height: .90667rem;
     text-align: center;
-    border: .02667rem solid #D9AC4F;
+    border: .02667rem solid #E67301
     border-radius: .21333rem;
     font-size: .37333rem;
     color: #d9ac4f
@@ -28955,7 +28955,7 @@ table[data-v-c375424d] {
 }
 
 .Betting__C-multiple-r.active[data-v-2194ac19] {
-    background: #D9AC4F;
+    background: #E67301
     color: #8f5206
 }
 
@@ -29166,7 +29166,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #d9ac4f;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -29276,7 +29276,7 @@ table[data-v-c375424d] {
 
 .Trend__C-body1-line.lottery .Trend__C-body1-line-num>div[data-v-ae0503ca] {
     border-radius: 50%;
-    border: .01333rem solid #D9AC4F;
+    border: .01333rem solid #E67301
     color: #d9ac4f
 }
 
@@ -29454,7 +29454,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #d9ac4f;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
@@ -30310,7 +30310,7 @@ table[data-v-c375424d] {
     width: .93333rem;
     height: .93333rem;
     border-radius: .13333rem;
-    background: #d9ac4f;
+    background: #E67301
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;

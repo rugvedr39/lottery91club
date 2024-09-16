@@ -118,15 +118,17 @@ const riskAgreement = async (req, res) => {
     return res.render("member/about/riskAgreement.ejs");
 }
 
-const keFuMenu = async (req, res) => {
+const keFuMenu = async(req, res) => {
     let auth = req.cookies.auth;
 
     const [users] = await connection.query('SELECT `level`, `ctv` FROM users WHERE token = ?', [auth]);
 
     let telegram = '';
+    let whatsapp=''
     if (users.length == 0) {
-        let [settings] = await connection.query('SELECT `telegram`, `cskh` FROM admin');
+        let [settings] = await connection.query('SELECT `telegram`, `cskh`,`whatsapp` FROM admin');
         telegram = settings[0].telegram;
+        whatsapp = settings[0].whatsapp;
     } else {
         if (users[0].level != 0) {
             var [settings] = await connection.query('SELECT * FROM admin');
@@ -139,9 +141,10 @@ const keFuMenu = async (req, res) => {
             }
         }
         telegram = settings[0].telegram;
+        whatsapp = settings[0].whatsapp;
     }
-
-    return res.render("keFuMenu.ejs", { telegram });
+    
+    return res.render("keFuMenu.ejs", {telegram,whatsapp}); 
 }
 
 const myProfilePage = async (req, res) => {

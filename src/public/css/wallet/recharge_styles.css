@@ -29,7 +29,7 @@ body {
     height: 1.06667rem;
     width: 100%;
     /* background: -webkit-linear-gradient(left, #C4933F 0%, #FAE59F 100%);
-    background: linear-gradient(90deg, #C4933F 0%, #FAE59F 100%) */
+    background: linear-gradient(90deg, rgb(255, 152, 1) 0%, rgb(230, 116, 1) 100%) */
 }
 
 .mian .selectBox .txtBox[data-v-67caa467] {

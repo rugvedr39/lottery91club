@@ -98,7 +98,7 @@
 
 .popup-content .box .lab .icon[data-v-5acdbb67] {
     font-size: .4rem;
-    color: #d9ac4f;
+    color: #E67301
     margin-right: .13333rem
 }
 
@@ -111,8 +111,8 @@
     line-height: .93333rem;
     border-radius: .93333rem;
     margin-top: .26667rem;
-    color: #d9ac4f;
-    border: .01333rem solid #D9AC4F;
+    color: #E67301
+    border: .01333rem solid #E67301
     text-align: center;
     font-size: .45333rem;
     font-weight: 700
@@ -811,7 +811,7 @@
 .phoneInput__container-tips[data-v-93f53084] {
     margin-top: .32rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1299,7 +1299,7 @@
 .RpwdPopup-tip[data-v-3660c3c3] {
     margin-top: .32rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     display: -webkit-box;
     display: -webkit-flex;
@@ -1348,7 +1348,7 @@
     line-height: .48rem;
     min-height: .48rem;
     width: 100%;
-    color: #d9ac4f;
+    color: #E67301
     word-break: break-all;
     white-space: normal
 }
@@ -1422,7 +1422,7 @@
 .emailinput__container-tips[data-v-144f0059] {
     margin-top: .32rem;
     padding-left: .22667rem;
-    color: #d9ac4f;
+    color: #E67301
     font-size: .32rem;
     display: -webkit-box;
     display: -webkit-flex;

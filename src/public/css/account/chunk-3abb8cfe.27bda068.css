@@ -3770,8 +3770,8 @@ ul {
 
 .van-button--default {
     color: #323233;
-    background-color: #fff;
-    border: .02667rem solid #ebedf0
+    background-color: #ff7300;
+    border: .02667rem solid #ff7300
 }
 
 .van-button--primary {

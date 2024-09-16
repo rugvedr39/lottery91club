@@ -101,16 +101,14 @@
                                         <label for="telegram">Telegram</label>
                                     </div>
                                     <label for="telegram" style="color: #3498db;">Telegram</label>
-                                    <input type="text" class="form-control" id="telegram"
-                                        placeholder="Enter Telegram Link" value=""><br>
-                                    <label for="cskh" style="color: #3498db;">Online Services</label>
-                                    <input type="text" class="form-control" id="cskh" placeholder="Online Services"
-                                        value=""><br>
-                                    <label for="myapp_web" style="color: #3498db;">App Download Link</label>
-                                    <input type="text" class="form-control" id="myapp_web" placeholder="Enter App Link"
-                                        value=""><br>
-                                    <button type="submit" class="btn btn-primary telegram"
-                                        style="width: 100%;">Submit</button>
+                                    <input type="text" class="form-control" id="telegram" placeholder="Link Telegram" value=""><br>
+                                    <label for="telegram" style="color: #3498db;">WhatsApp</label>
+                                    <input type="text" class="form-control" id="WhatsApp" placeholder="Link WhatsApp" value=""><br>
+                                    <label for="cskh" style="color: #3498db;">Online service</label>
+                                    <input type="text" class="form-control" id="cskh" placeholder="Online service" value=""><br>
+                                    <label for="myapp_web" style="color: #3498db;">App download link</label>
+                                    <input type="text" class="form-control" id="myapp_web" placeholder="Link to download APP" value=""><br>
+                                    <button type="submit" class="btn btn-primary telegram" style="width: 100%;">Initialize</button>
                                 </div>
 
                             </div>
@@ -144,6 +142,7 @@
                 // $('#edit-momo-qr').val(momo.qr_code_image);
 
                 $('#telegram').val(response.settings[0].telegram);
+                $('#WhatsApp').val(response.settings[0].whatsapp);
                 $('#cskh').val(response.settings[0].cskh);
                 $('#myapp_web').val(response.settings[0].app);
             }
@@ -276,12 +275,14 @@
             e.preventDefault();
             const telegram = $('#telegram').val();
             const cskh = $('#cskh').val();
+            const WhatsApp = $('#WhatsApp').val();
             const myapp_web = $('#myapp_web').val();
             $.ajax({
                 type: "POST",
                 url: "/admin/manager/settings/cskh",
                 data: {
                     telegram: telegram,
+                    WhatsApp: WhatsApp,
                     cskh: cskh,
                     myapp_web: myapp_web,
                 },
