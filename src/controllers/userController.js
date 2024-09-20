@@ -866,11 +866,11 @@ const addBank = async (req, res) => {
     let name_bank = req.body.name_bank;
     let name_user = req.body.name_user;
     let stk = req.body.stk;
-    let tp = req.body.tp;
+    let tp = '0';
     let email = req.body.email;
-    let sdt = req.body.sdt;
+    let sdt = '0';
     let tinh = req.body.tinh;
-    let chi_nhanh = req.body.chi_nhanh;
+    let chi_nhanh = '0';
     let time = new Date().getTime();
 
     if (!auth || !name_bank || !name_user || !stk || !tp || !email || !sdt || !tinh || !chi_nhanh) {
