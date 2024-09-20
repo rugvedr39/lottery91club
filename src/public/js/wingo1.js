@@ -141,22 +141,31 @@ $.ajax({
     $(".game-list .con-box:eq(0) .page-nav .number").text("1/" + response.page);
 
     // Assuming firstGame is defined somewhere in your code
-    if (firstGame && firstGame.stage === list_orders[0].period) {
-        var modal = document.getElementById("myModal");
-        modal.style.display = "block";
-        var myModalheader = document.getElementById("myModal_header");
-        var myModal_result = document.getElementById("myModal_result");
-        var lottery_result = document.getElementById("lottery_result");
-        var myModal_result_Period = document.getElementById("myModal_result_Period");
-        if (firstGame.get == 0) {
-            myModalheader.innerHTML = "Try Again";
-            myModal_result.innerHTML = "LOSS :" + firstGame.money;
-        } else {
-            myModalheader.innerHTML = "Congratulations";
-            myModal_result.innerHTML = "WIN :" + firstGame.get;
-        }
-        myModal_result_Period.innerHTML = "Period : 1min " + firstGame.stage;
-        
+   if (firstGame && firstGame.stage === list_orders[0].period) {        
+    var modal = document.getElementById("myModal");
+    modal.style.display = "block";
+    
+    var myModalheader = document.getElementById("myModal_header");
+    var myModal_result = document.getElementById("myModal_result");
+    var myModal_result_Period = document.getElementById("myModal_result_Period");
+    var winImage = document.getElementById("winImage");
+    var lossImage = document.getElementById("lossImage");
+    
+    if (firstGame.get == 0) {
+        myModalheader.innerHTML = "Try Again 🥺";
+        myModal_result.innerHTML = "LOSS : " + firstGame.money;
+        winImage.style.display = "none"; // Hide the win image
+        lossImage.style.display = "block"; // Show the loss image
+    } else {            
+        myModalheader.innerHTML = "Winning 🥇";
+        myModal_result.innerHTML = "WIN : " + firstGame.get;
+        winImage.style.display = "block"; // Show the win image
+        lossImage.style.display = "none"; // Hide the loss image
+    }
+    
+    myModal_result_Period.innerHTML = "Period : 1min " + firstGame.stage;
+
+
         let color;
         let type;
 
